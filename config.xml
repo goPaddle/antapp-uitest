@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XmltoJava name="Selenium_Automation">
  	<suite suitename="Antapp" classname="Login">
-     		<parameter name="Antapp" testcase="title" param="testtitle" param1="AntExample/index.jsp" param2="" dependson=""/>
+     		<parameter name="Antapp" testcase="title" param="testtitle" param1="/AntExample/index.jsp" param2="" dependson=""/>
      		<!--<parameter name="Cantas" testcase="login" param="Vinothini" param1="test123" param2="" dependson=""/>
      		<parameter name="Cantas" testcase="add_board" param="Vinothini" param1="Task" param2="" dependson=""/>
      		<parameter name="Cantas" testcase="logout" param="Vinothini" param1="Task" param2="" dependson=""/> -->
