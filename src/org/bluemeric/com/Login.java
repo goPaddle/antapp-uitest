@@ -68,10 +68,10 @@ import junit.framework.Assert;
 		//utility.title(param);
 		driver.get(url);
 		driver.manage().window().maximize();
-		Assert.assertEquals(driver.getTitle(), "New to Cantas?");
+		Assert.assertEquals(driver.getTitle(), "Insert title here");
 	}
 	
-	@Parameters({"param","param1"})
+/*	@Parameters({"param","param1"})
 	@Test
 	public void login(@Optional String param,@Optional String param1) throws IOException{
 		//utility.title(param);
@@ -114,7 +114,7 @@ import junit.framework.Assert;
 		System.out.println("====> logout succeed");
 		//Thread.sleep(300000);
 	}
-		
+		*?
 	
 	/*@Parameters({"param","param1","Depends","suiteName"})
 	@Test
