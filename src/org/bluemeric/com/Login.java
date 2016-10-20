@@ -66,7 +66,7 @@ import junit.framework.Assert;
 	@Test
 	public void title(@Optional String param,@Optional String param1) throws IOException{
 		//utility.title(param);
-		driver.get(url);
+		driver.get(url+param1);
 		driver.manage().window().maximize();
 		Assert.assertEquals(driver.getTitle(), "Insert title here");
 	}
